@@ -1,6 +1,6 @@
 {
   "name": "mf9-react-native-utilities",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React Native utilities of Mobifone 9",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,9 @@
     "url": "https://github.com/QuocMinh/mf9-react-native-utilities/issues"
   },
   "homepage": "https://github.com/QuocMinh/mf9-react-native-utilities#readme",
-  "dependencies": {
+  "devDependencies": {
+    "react-native": "^0.55.4",
+    "react-navigation": "^2.3.1",
     "sentry-expo": "^1.9.0"
   }
 }
