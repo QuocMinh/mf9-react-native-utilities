@@ -1,4 +1,4 @@
-import { captureError, captureWarning } from "./SentryConfig";
+import { captureError, captureWarning } from "./mSentryExpoConfig";
 
 /**
  * Hàm Log ra console

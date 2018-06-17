@@ -1,11 +1,11 @@
-import * as Mf9Util       from "./lib/Utils";
-import * as LogSentry     from "./lib/LogSentry";
-import * as LocationExpo  from "./lib/LocationExpo";
-import * as SentryConfig  from "./lib/SentryConfig";
+import * as mf9             from 'mf9-utilities';
+import * as mf9Location     from './mLocationExpo';
+import * as mf9LogSentry    from './mLogSentryExpo';
+import * as mf9SentryConfig from './mSentryExpoConfig';
 
 export {
-  Mf9Util,
-  LogSentry,
-  LocationExpo,
-  SentryConfig
+  mf9,
+  mf9Location,
+  mf9LogSentry,
+  mf9SentryConfig
 };

@@ -1,5 +1,5 @@
-import { Platform } from "react-native";
-import { Constants, Location, Permissions } from 'expo';
+const { Platform} = require('react-native');
+const { Constants, Location, Permissions } = require('expo');
 
 const LocationMessage = {
   PermissionDenied: 'Permission to access location was denied!',
@@ -11,7 +11,7 @@ const LocationMessage = {
  * Hàm lấy vị trí: return [object] nếu thành công || return [string] nếu lỗi.
  * Dùng cho App tích hợp Expo.
  */
-export const getLocationAsync = async () => {
+module.exports.getLocationAsync = async () => {
   let result = '';
 
   // Check devices
